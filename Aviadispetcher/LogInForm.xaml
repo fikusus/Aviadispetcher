@@ -1,0 +1,18 @@
+﻿<Window x:Name="logInForm" x:Class="Aviadispetcher.LogInForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aviadispetcher"
+        mc:Ignorable="d"
+        Title="Авторизація" Height="120" Width="240 
+        " WindowStyle="ToolWindow" KeyDown="Window_KeyDown" Closed="LogInForm_Closed">
+    <Grid>
+        <Label x:Name="logLabel" Content="Логін" HorizontalAlignment="Left" Margin="10,2,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="passwordLabel" Content="Пароль" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="logTextBox" HorizontalAlignment="Left" Height="23" Margin="72,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="72,33,0,0"/>
+        <Button x:Name="okButton" Content="Вхід" HorizontalAlignment="Left" Margin="147,60,0,0" VerticalAlignment="Top" Width="75" Click="OkButton_Click"/>
+
+    </Grid>
+</Window>
